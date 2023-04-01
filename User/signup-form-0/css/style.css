@@ -1,0 +1,129 @@
+/*Suraj Aswal*/
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.main-wrap{
+    position: relative;
+    width: 100%;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+.form-wrap{
+    margin:auto;
+    margin-top:5%;
+    border-radius: 30px;
+    padding:80px 25px;
+    background-color: rgba(6, 6, 6, 0.945);
+    width:650px;
+    height:auto;
+    z-index: -999;
+    /* box-shadow: 0.1rem 3rem rgba(0, 0, 0, 0.527) !important; */
+}
+.form-wrap h1{
+    color: rgb(238, 237, 237);
+    text-align: center;
+}
+.form-wrap h6{
+    color:rgb(212, 211, 211);
+    font-size:14px;
+    margin-bottom:20px;
+}
+.form-wrap span{
+    color:rgb(23, 206, 212);
+}
+.form input{
+    margin:8px 0px;
+    height:45px;
+    width:100%;
+    border:none;
+    border-radius: 20px;
+    padding-left:14px;
+    color:rgb(238, 237, 237);
+    background-color: rgba(118, 116, 126, 0.583);
+}
+.form input:focus{
+    border:none;
+    outline:none
+}
+.form input::placeholder{
+    padding-left: 4px;
+}
+.form .form-btn{
+    width:100px;
+    border-radius:20px;
+    padding:5px;
+    cursor:pointer;
+    font-weight:550;
+    margin-top:16px;
+    border:0.1rem solid rgb(35, 215, 221);
+    color:rgb(35, 215, 221);
+    background-color: transparent;
+    margin-left: 42.38%;
+    margin-top: 4%;
+    
+}
+.form-btn:hover{
+    background-color: rgb(17, 16, 29);
+}
+.sign-up-with{
+    padding:40px 10px;
+    width:100%;
+    display:inline-block;
+    text-align:center;
+    color:rgb(206, 202, 202) !important;
+}
+.social-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-logo a{
+    background-color: #fff;
+    width:30px;
+    height:30px;
+    margin:2px 25px;
+    padding:5px;
+    border-radius:20px;
+}
+.social-logo a img{
+    height:20px;
+    width:20px;
+}
+
+.gender{
+    margin:8px 0px;
+    height:45px;
+    width:100%;
+    border:1px;
+    border-radius: 20px;
+    padding-left:14px;
+    color:rgb(238, 237, 237);
+    background-color: rgb(7, 6, 10);
+}
+#id_password{
+    position: absolute;
+height:45px;
+width:600px;
+}
+.far{
+    padding-top: 12%;
+    padding-left: 52%;
+    width:2px;
+    position:relative;
+    height:2px;
+    
+}
